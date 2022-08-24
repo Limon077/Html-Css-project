@@ -230,6 +230,7 @@ nav .fa {
 
 .campus-col img {
     width: 100%;
+    display: block;
 }
 
 .layer {
@@ -248,4 +249,22 @@ nav .fa {
 
 .campus-col:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.layer:hover h3 {
+    bottom: 40%;
+    opacity: 1;
 }
