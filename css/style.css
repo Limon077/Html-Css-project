@@ -389,3 +389,42 @@ nav .fa {
         font-size: 20px;
     }
 }
+
+
+/*------Footer-------*/
+
+.footer {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background: #fff3f3;
+}
+
+.footer h4 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.footer p {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.icons .fa-brands {
+    color: #f44336;
+    margin: 0 10px;
+    padding: 15px 0;
+}
+
+p .fa-heart {
+    font-size: 25px;
+    color: #f6140429;
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+p .fa-heart:hover {
+    color: #f61404;
+    font-size: 25px;
+}
