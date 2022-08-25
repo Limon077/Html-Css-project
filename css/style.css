@@ -300,3 +300,52 @@ nav .fa {
     margin-bottom: 15px;
     text-align: left;
 }
+
+
+/* --------------Testimonials----------- */
+
+.testimonials {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.testimonials-col {
+    flex-basis: 44%;
+    text-align: left;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background: #fff3f3;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.testimonials-col img {
+    height: 40px;
+    border-radius: 50%;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.testimonials-col p {
+    padding: 0;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.testimonials-col h3 {
+    margin-top: 10px;
+}
+
+.testimonials-col .fa {
+    color: rgb(252, 181, 0);
+}
+
+.testimonials-col:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
